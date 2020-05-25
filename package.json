@@ -1,0 +1,25 @@
+{
+  "name": "w2ui-dashboard",
+  "version": "1.0.0",
+  "description": "W2UI Demo Dashboard",
+  "main": "index.js",
+  "scripts": {
+    "watch" : "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sleroy/w2ui-dashboard.git"
+  },
+  "keywords": [
+    "w2ui",
+    "demo",
+    "dashboard"
+  ],
+  "author": "Sylvain Leroy | Mohammad Tahawi",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/sleroy/w2ui-dashboard/issues"
+  },
+  "homepage": "https://github.com/sleroy/w2ui-dashboard#readme"
+}
