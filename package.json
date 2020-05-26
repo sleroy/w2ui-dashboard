@@ -4,7 +4,8 @@
   "description": "W2UI Demo Dashboard",
   "main": "index.js",
   "scripts": {
-    "watch" : "tsc -w",
+    "build": "webpack",
+    "watch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +22,16 @@
   "bugs": {
     "url": "https://github.com/sleroy/w2ui-dashboard/issues"
   },
-  "homepage": "https://github.com/sleroy/w2ui-dashboard#readme"
+  "homepage": "https://github.com/sleroy/w2ui-dashboard#readme",
+  "devDependencies": {
+    "clean-webpack-plugin": "^3.0.0",
+    "copy-webpack-plugin": "^6.0.1",
+    "css-loader": "^3.5.3",
+    "html-webpack-plugin": "^4.3.0",
+    "style-loader": "^1.2.1",
+    "ts-loader": "^7.0.5",
+    "typescript": "^3.9.3",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11"
+  }
 }
