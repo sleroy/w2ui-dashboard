@@ -27,6 +27,7 @@ module.exports = {
     new CopyWebpackPlugin({
       patterns: [
         { from: 'public', to: '.' },
+        { from: 'node_modules/w2ui/w2ui.css', to: 'css' },
       ],
     }),
   ],
