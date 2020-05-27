@@ -1,5 +1,5 @@
-
 import W2UI from 'w2ui';
+import $ from "jquery";
 
 const world = '🗺️';
 
