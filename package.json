@@ -4,6 +4,7 @@
   "description": "W2UI Demo Dashboard",
   "main": "index.js",
   "scripts": {
+    "start:dev": "webpack-dev-server",
     "build": "webpack",
     "watch": "tsc -w",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -33,7 +34,8 @@
     "ts-loader": "^7.0.5",
     "typescript": "^3.9.3",
     "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.11"
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
   },
   "dependencies": {
     "install": "^0.13.0",
