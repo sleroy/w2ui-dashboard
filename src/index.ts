@@ -1,3 +1,5 @@
+import $ from 'jquery';
+
 $(function () {
     const pstyle = 'border: 1px solid #dfdfdf; padding: 5px;';
     $('#layout').w2layout({
